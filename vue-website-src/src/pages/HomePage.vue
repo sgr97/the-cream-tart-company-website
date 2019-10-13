@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h1>Home</h1>
+        <h1>Welcome</h1>
         <p>Here is some information. This is the homepage</p>
         <div class="img_container">
-            <img id="logo_img" src="../assets/company-logo_960x960.jpg">
+            <img id="logo_img" src="../assets/company-logo_960x960.png">
         </div>
     </div>
 </template>
@@ -28,9 +28,10 @@ export default {
     }
 
     #logo_img {
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 35%;
+        max-height: 35%;
         margin: auto;
+        opacity: 0.9;
     }
 
 
