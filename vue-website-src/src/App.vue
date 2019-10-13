@@ -57,7 +57,7 @@ html, body {
 }
 
 #app::after {
-  background-color: #DDA0DD;
+  background-color: #EE82EE;
   content: "";
   display: block;
   position: absolute;
@@ -66,6 +66,6 @@ html, body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 </style>
