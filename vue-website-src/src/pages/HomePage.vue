@@ -1,7 +1,5 @@
 <template>
     <div>
-        <h1>Welcome</h1>
-        <p>Here is some information. This is the homepage</p>
         <div class="img_container">
             <img id="logo_img" src="../assets/company-logo_960x960.png">
         </div>
@@ -23,7 +21,8 @@ export default {
     }
 
     .img_container {
-        display: grid;
+        position: relative;
+        display: block;
         height: 100%;
     }
 
